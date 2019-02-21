@@ -105,6 +105,7 @@ const periods = {
     "K": new Time(20, 30),
 };
 const classTime = 50;
+const delay = 30;
 
 function getPeriod(time) {
     for (let index in periods) {
@@ -122,9 +123,10 @@ function getClass(day, time) {
     return classes.find(c => c.time.some(t => t.day === day && t.period === period));
 }
 
-
 const date = new Date();
-const currClass = getClass(date.getDay(), new Time(date.getHours(), date.getMinutes()));
+const currDay = date.getDay();
+const currTime = new Time(date.getHours(), date.getMinutes());
+const currClass = getClass(currDay, currTime) || getClass(currDay, currTime.add(delay));
 if (currClass) {
     document.getElementById("course").innerHTML = currClass.className;
     document.getElementById("classroom").innerHTML = currClass.place;
