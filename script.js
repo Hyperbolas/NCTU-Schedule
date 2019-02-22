@@ -105,7 +105,7 @@ const periods = {
     "K": new Time(20, 30),
 };
 const classTime = 50;
-const delay = 30;
+const delay =40 ;
 
 function getPeriod(time) {
     for (let index in periods) {
