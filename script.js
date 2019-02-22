@@ -89,6 +89,14 @@ const classes = [
             { day: 5, period: "K" }
         ],
         place: "EC016"
+    }, {
+        classNmae: "資訊安全",
+        time: [
+            { day: 2, period: "B" },
+            { day: 5, period: "E" },
+            { day: 5, period: "F" }
+        ],
+        place: "EC114"
     }
 ];
 const periods = {
@@ -105,7 +113,7 @@ const periods = {
     "K": new Time(20, 30),
 };
 const classTime = 50;
-const delay =40 ;
+const delay = 40;
 
 function getPeriod(time) {
     for (let index in periods) {
