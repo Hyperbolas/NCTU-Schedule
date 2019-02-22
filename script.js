@@ -88,7 +88,7 @@ const classes = [
             { day: 5, period: "J" },
             { day: 5, period: "K" }
         ],
-        place: "EC016"
+        place: "ED117"
     }, {
         classNmae: "資訊安全",
         time: [
