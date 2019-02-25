@@ -90,7 +90,7 @@ const classes = [
         ],
         place: "ED117"
     }, {
-        classNmae: "資訊安全",
+        className: "資訊安全",
         time: [
             { day: 2, period: "B" },
             { day: 5, period: "E" },
