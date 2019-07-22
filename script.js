@@ -39,26 +39,23 @@ class Time {
 
 const classes = [
     {
-        className: "密碼學",
+        className: "演算法",
         time: [
-            { day: 1, period: "C" },
-            { day: 1, period: "D" },
-            { day: 3, period: "B" },
+            { day: 2, period: "C" },
+            { day: 2, period: "D" },
+            { day: 4, period: "G" }
         ],
-        place: "ED117"
+        place: "EC115"
     }, {
-        className: "資料結構",
+        className: "機率",
         time: [
-            { day: 1, period: "E" },
-            { day: 1, period: "F" },
-            { day: 1, period: "I" },
-            { day: 1, period: "J" },
-            { day: 1, period: "K" },
-            { day: 4, period: "B" },
+            { day: 3, period: "C" },
+            { day: 3, period: "D" },
+            { day: 5, period: "G" }
         ],
-        place: "EC022"
+        place: "EC122"
     }, {
-        className: "人工智慧",
+        className: "計網概",
         time: [
             { day: 2, period: "E" },
             { day: 2, period: "F" },
@@ -66,37 +63,42 @@ const classes = [
         ],
         place: "EC122"
     }, {
-        className: "離散數學",
+        className: "詩經",
         time: [
             { day: 2, period: "G" },
-            { day: 5, period: "C" },
-            { day: 5, period: "D" },
+            { day: 2, period: "H" }
         ],
-        place: "EC114"
+        place: "A509"
     }, {
-        className: "組合語言",
+        className: "網路技術",
         time: [
-            { day: 3, period: "C" },
-            { day: 3, period: "D" },
-            { day: 5, period: "G" }
+            { day: 2, period: "I" },
+            { day: 2, period: "J" },
+            { day: 2, period: "K" }
         ],
-        place: "EC016"
+        place: "校計中"
     }, {
-        className: "競技程式",
+        className: "軍訓",
         time: [
-            { day: 5, period: "I" },
-            { day: 5, period: "J" },
-            { day: 5, period: "K" }
+            { day: 3, period: "E" },
+            { day: 3, period: "F" }
         ],
-        place: "ED117"
+        place: "A104"
     }, {
-        className: "資訊安全",
+        className: "Javascript",
         time: [
-            { day: 2, period: "B" },
-            { day: 5, period: "E" },
-            { day: 5, period: "F" }
+            { day: 4, period: "A" },
+            { day: 4, period: "B" },
+            { day: 4, period: "C" }
         ],
-        place: "EC114"
+        place: "校計中"
+    }, {
+        className: "Golang",
+        time: [
+            { day: 4, period: "E" },
+            { day: 4, period: "F" }
+        ],
+        place: "校計中"
     }
 ];
 const periods = {
