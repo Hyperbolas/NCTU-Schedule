@@ -93,12 +93,21 @@ const classes = [
         ],
         place: "校計中"
     }, {
-        className: "Golang",
+        className: "SA",
         time: [
+            { day: 1, period: "B" },
             { day: 4, period: "E" },
             { day: 4, period: "F" }
         ],
-        place: "校計中"
+        place: "EC115 / EC316"
+    }, {
+        className: "競技程式",
+        time: [
+            { day: 5, period: "I" },
+            { day: 5, period: "J" },
+            { day: 5, period: "K" },
+        ],
+        place: "EC122"
     }
 ];
 const periods = {
