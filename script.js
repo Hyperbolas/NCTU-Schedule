@@ -39,38 +39,39 @@ class Time {
 
 const classes = [
     {
-        className: "演算法",
+        className: "計算機組織",
+        time: [
+            { day: 1, period: "B" },
+            { day: 4, period: "E" },
+            { day: 4, period: "F" }
+        ],
+        place: "EC115"
+    }, {
+        className: "正規語言",
         time: [
             { day: 2, period: "C" },
             { day: 2, period: "D" },
             { day: 4, period: "G" }
         ],
-        place: "EC115"
+        place: "Online"
     }, {
-        className: "機率",
+        className: "資料庫",
         time: [
             { day: 3, period: "C" },
             { day: 3, period: "D" },
             { day: 5, period: "G" }
         ],
-        place: "EC122"
+        place: "Online"
     }, {
-        className: "計網概",
+        className: "NA",
         time: [
-            { day: 2, period: "E" },
-            { day: 2, period: "F" },
-            { day: 5, period: "B" }
+            { day: 4, period: "I" },
+            { day: 4, period: "J" },
+            { day: 4, period: "K" }
         ],
-        place: "EC122"
+        place: "EC114"
     }, {
-        className: "詩經",
-        time: [
-            { day: 2, period: "G" },
-            { day: 2, period: "H" }
-        ],
-        place: "A509"
-    }, {
-        className: "網路技術",
+        className: "系統管理",
         time: [
             { day: 2, period: "I" },
             { day: 2, period: "J" },
@@ -78,36 +79,12 @@ const classes = [
         ],
         place: "校計中"
     }, {
-        className: "軍訓",
+        className: "游泳",
         time: [
-            { day: 3, period: "E" },
-            { day: 3, period: "F" }
+            { day: 2, period: "E" },
+            { day: 2, period: "F" }
         ],
-        place: "A104"
-    }, {
-        className: "Javascript",
-        time: [
-            { day: 4, period: "A" },
-            { day: 4, period: "B" },
-            { day: 4, period: "C" }
-        ],
-        place: "校計中"
-    }, {
-        className: "SA",
-        time: [
-            { day: 1, period: "B" },
-            { day: 4, period: "E" },
-            { day: 4, period: "F" }
-        ],
-        place: "EC115 / EC316"
-    }, {
-        className: "競技程式",
-        time: [
-            { day: 5, period: "I" },
-            { day: 5, period: "J" },
-            { day: 5, period: "K" },
-        ],
-        place: "EC122"
+        place: "游泳池"
     }
 ];
 const periods = {
